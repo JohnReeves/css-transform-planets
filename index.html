@@ -1,0 +1,27 @@
+<html>
+<head></head>
+
+<body>
+<svg height="600" width="600">
+<polygon points="0,0 600,0 600,600 0,600" fill="url(#sunGrad)"/>
+
+<circle id="earth" cx="300" cy="50" r="10" fill="url(#earthGrad)" />
+
+
+<linearGradient id="earthGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="10%" stop-color="#0a0a0a"/>
+    <stop offset="55%" stop-color="#283593"/>
+    <stop offset="100%" stop-color="#fafafa" />
+</linearGradient>
+
+<radialGradient id="sunGrad" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#fafafa" />
+      <stop offset="5%" stop-color="#202020" />
+      <stop offset="15%" stop-color="#202020" />
+      <stop offset="100%" stop-color="#000000" />
+  </radialGradient>
+
+</svg>
+
+</body>
+</html>
