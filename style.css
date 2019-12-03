@@ -1,6 +1,6 @@
 		#mercury {
 			animation-name: planets;
-			animation-duration: 9s;
+			animation-duration: 3s;
 			animation-timing-function: linear;
 			animation-iteration-count: infinite;
 			transform-origin: 50% 50%;
@@ -8,7 +8,7 @@
 
 		#venus {
 			animation-name: planets;
-			animation-duration: 25s;
+			animation-duration: 3s;
 			animation-timing-function: linear;
 			animation-iteration-count: infinite;
 			transform-origin: 50% 50%;
@@ -16,7 +16,7 @@
 
 		#earth {
 			animation-name: planets;
-			animation-duration: 36s;
+			animation-duration: 3s;
 			animation-timing-function: linear;
 			animation-iteration-count: infinite;
 			transform-origin: 50% 50%;
@@ -24,9 +24,10 @@
 
 		@keyframes planets {
 			0% {
-				transform: rotate(0deg);
+				transform: rotate(0deg) translateX(150px) translateY(50px);
 			}
 			100% {
-				transform: rotate(360deg);
+				transform: rotate(360deg) translateX(150px) translateY(50px);
 			}
 	}
+  
