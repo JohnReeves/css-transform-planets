@@ -1,8 +1,8 @@
 		#mercury {
 			animation-name: planets;
 			animation-duration: 4.5s;
-			animation-timing-function: linear;
 			animation-iteration-count: infinite;
+      animation-timing-function: linear;
 			transform-origin: 50% 50%;
 		}
 
