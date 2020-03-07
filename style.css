@@ -14,7 +14,24 @@
 			transform-origin: 50% 50%;
 		}
 
+
 		#earth {
+			animation-name: planets;
+			animation-duration: 18s;
+			animation-timing-function: linear;
+			animation-iteration-count: infinite;
+			transform-origin: 50% 50%;
+		}
+
+		#moonOrbit {
+			animation-name: planets;
+			animation-duration: 18s;
+			animation-timing-function: linear;
+			animation-iteration-count: infinite;
+			transform-origin: 50% 50%;
+		}
+
+		#moon {
 			animation-name: planets;
 			animation-duration: 18s;
 			animation-timing-function: linear;
