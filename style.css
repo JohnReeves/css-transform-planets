@@ -32,14 +32,23 @@
 		}
 
 		#moon {
-			animation-name: planets;
+			animation-name: moon;
 			animation-duration: 18s;
 			animation-timing-function: linear;
 			animation-iteration-count: infinite;
-			transform-origin: 50% 50%;
+			transform-origin: 10% 10%;
 		}
 
-		@keyframes planets {
+		@keyframes moon {
+			0% {
+				transform: rotate(0deg);
+			}
+			100% {
+				transform: rotate(360deg);
+			}
+	}
+
+		@keyframes plnets {
 			0% {
 				transform: rotate(0deg);
 			}
