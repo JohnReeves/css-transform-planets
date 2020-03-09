@@ -31,12 +31,21 @@
 			transform-origin: 50% 50%;
 		}
 
+.moon {
+  --originX: 10%;
+  --originY: 10%;
+}
+
+/* use as
+var(--originX)
+*/
 		#moon {
 			animation-name: moon;
 			animation-duration: 18s;
 			animation-timing-function: linear;
 			animation-iteration-count: infinite;
-			transform-origin: 10% 10%;
+      /* transformed orgin of the earth */
+			transform-origin: 50% 50%;
 		}
 
 		@keyframes moon {
