@@ -1,59 +1,59 @@
 #mercury {
-animation-name: planets;
-animation-duration: 4.5s;
-animation-iteration-count: infinite;
-animation-timing-function: linear;
-transform-origin: 50% 50%;
+  animation-name: planets;
+  animation-duration: 4.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  transform-origin: 50% 50%;
 }
 #venus {
-animation-name: planets;
-animation-duration: 11s;
-animation-timing-function: linear;
-animation-iteration-count: infinite;
-transform-origin: 50% 50%;
+  animation-name: planets;
+  animation-duration: 11s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
 }
 #earth {
-animation-name: planets;
-animation-duration: 18s;
-animation-timing-function: linear;
-animation-iteration-count: infinite;
-transform-origin: 50% 50%;
+  animation-name: planets;
+  animation-duration: 18s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
 }
 #moonOrbit {
-animation-name: planets;
-animation-duration: 18s;
-animation-timing-function: linear;
-animation-iteration-count: infinite;
-transform-origin: 50% 50%;
+  animation-name: planets;
+  animation-duration: 18s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
 }
 .moon {
---originX: 10%;
---originY: 10%;
+  --originX: 10%;
+  --originY: 10%;
 }
 
 /* use as
 var(--originX)
 */
 #moon {
-animation-name: moon;
-animation-duration: 18s;
-animation-timing-function: linear;
-animation-iteration-count: infinite;
-/* transformed orgin of the earth */
-transform-origin: 50% 50%;
+  animation-name: moon;
+  animation-duration: 18s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  /* transformed orgin of the earth */
+  transform-origin: 50% 50%;
 }
 @keyframes moon {
-0% {transform: rotate(0deg);}
-100% {transform: rotate(360deg);}
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
 }
 @keyframes planets {
-0% {transform: rotate(0deg);}
-100% {transform: rotate(360deg);}
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
 }
 @keyframes planet {
-from{ transform: rotate(0deg) translateX(0px) translateY(50px) rotate(0deg);}
-25% { transform: rotate(0deg) translateX(150px) translateY(100px);}
-50% { transform: rotate(0deg) translateX(350px) translateY(50px) rotate(0deg);}    
-75% { transform: rotate(0deg) translateX(200px) translateY(-50px);}
-to  { transform: rotate(360deg) translateX(0px) translateY(50px) rotate(-360deg);}
+  from{ transform: rotate(0deg) translateX(0px) translateY(50px) rotate(0deg);}
+  25% { transform: rotate(0deg) translateX(150px) translateY(100px);}
+  50% { transform: rotate(0deg) translateX(350px) translateY(50px) rotate(0deg);}    
+  75% { transform: rotate(0deg) translateX(200px) translateY(-50px);}
+  to  { transform: rotate(360deg) translateX(0px) translateY(50px) rotate(-360deg);}
 }
